@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--- Set the primary language of the HTML document to English. --->
+<html lang="en">
+	<head>
+		<!--- Title --->
+		<title>Sign Up</title>
+		<!--- Favicon --->
+        <link rel="icon" href="/images/favicon.png">
+		<meta charset="UTF-8"/>
+        <!--- Give the browser instructions on how to control the page's dimensions and scaling. --->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<!--- Stylesheet --->
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<!--- Include some line break elements in order to move the sign up page content downwards. --->
+		<br>
+		<br>
+		<br>
+		<!--- Main Class --->
+		<div class="main">
+			<!--- Post Method --->
+			<form action="/signup" method="post">
+				<!--- Header --->
+				<h1>Sign Up Form</h1>
+				<!--- User Input --->
+				<input class="box" type="text" name="name" id="name" placeholder="Name" required/><br>
+				<input class="box" type="text" name="phone" id="phone" placeholder="Phone Number" required/><br>
+				<input class="box" type="email" name="email" id="email" placeholder="E-Mail" required/><br>
+				<input class="box" type="password" name="password" id="password" placeholder="Password" required/><br>
+				<br>
+				<input type="submit" id="submit_button" name="submit_button" value="Submit"/><br>
+			</form>
+		</div>
+	</body>
+</html>

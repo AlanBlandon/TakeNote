@@ -1,0 +1,130 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap');
+
+/* Global */
+* {
+    margin: 0;
+}
+
+/* Navigation Bar Style*/
+.menu {
+    background-color: #505050;
+    font-family: 'Coming Soon', cursive;
+    height: 7vw;
+    width: 100vw;
+    overflow: hidden;
+    position: fixed;
+    z-index: 10;
+}
+
+/* Navigation Bar Anchor Element Style */
+.menu a {
+    color: white;
+    float: left;
+    height: 7vw;
+    text-decoration: none;
+}
+
+/* Navigation Bar Highlight Style */
+.menu a.highlight {
+    background-color: #04AB60;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 25px 25px;
+    text-decoration: underline;
+    width: 10vw;
+}
+
+/* Navigation Bar Right Hand Side Style */
+.menu-right {
+    float: right;
+}
+
+/* Navigation Bar Icon Style */
+.menu-icon {
+    float: right;
+    margin-right: 10px;
+}
+
+/* Navigation Bar Button Hover Style */
+.buttons:hover {
+    box-shadow: 0 12px 17px 0 rgba(0,0,0,0.25), 0 17px 50px 0 rgba(0,0,0,0.17);
+}
+
+/* Navigation Bar Button Style */
+.buttons {
+    background-color: #04AB60;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Coming Soon', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 30px;
+    margin-top: 15px;
+    padding: 12px 20px;
+    text-shadow: 1px 1px 1px black;
+}
+
+/* About Section Style */
+.about {
+    background-attachment: fixed;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('/images/about_background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+}
+
+/* About Section Paragraph Element Style */
+.about p {
+    font-size: 50px;
+    font-family: 'Coming Soon', cursive;
+    padding: 90px 100px;
+    text-align: center;
+}
+
+/* Sign Up Section Style */
+.main {
+    font-family: 'Coming Soon', cursive;
+	padding: 20px;
+}
+
+/* Sign Up Section Heading Style */
+.main h1 {
+    background-color: #04AB60;
+    border-color: black;
+    border-radius: 12px;
+    border-style: solid;
+    border-width: medium;
+    font-family: 'Coming Soon', cursive;
+	font-size: 40px;
+	text-align: center;
+    text-decoration: underline;
+}
+
+/* Sign Up Section Input Text Style */
+input {
+    border: none;
+	border-bottom: 2px solid black;
+	font-family: 'Coming Soon', cursive;
+    font-size: 20px;
+    padding: 20px 20px;
+	width: 94vw;
+}
+
+/* Sign Up Section Submit Button Style */
+input[type=submit] {
+    background-color: #505050;
+    border-color: black;
+    border-radius: 12px;
+    border-style: solid;
+    border-width: medium;
+    color: white;
+	font-family: 'Coming Soon', cursive;
+    font-size: 20px;
+	width: 15vw;
+    margin-left: 525px;
+    text-align: center;
+}
